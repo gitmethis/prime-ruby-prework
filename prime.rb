@@ -15,6 +15,15 @@ def prime?(int)
      end
    end
    
+   if int < 0
+     while e > int
+       if int % i == 0
+          return false 
+       end
+       e-=1
+     end
+   end
+   
    
    
    
