@@ -13,6 +13,10 @@ def prime?(int)
             i+=1
             next  
           end
+          if i == int
+             next  
+          end
+          
           return false 
        end
        i+=1
