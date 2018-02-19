@@ -3,7 +3,7 @@
 
 def prime?(int)
    
-   i = 2
+   i = 1
    e = -1 # FOR NEGATIVE NUMBERS
    
    if int > -1
