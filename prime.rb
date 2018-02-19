@@ -9,6 +9,10 @@ def prime?(int)
    if int > -1
      while i <= int
        if int % i == 0
+          if i == 1 && int > 1
+            i+=1
+            next  
+          end
           return false 
        end
        i+=1
