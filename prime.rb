@@ -14,6 +14,7 @@ def prime?(int)
             next  
           end
           if i == int
+             i+=1
              next  
           end
           
