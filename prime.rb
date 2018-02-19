@@ -6,8 +6,19 @@ def prime?(int)
    i = 1
    e = -1 # FOR NEGATIVE NUMBERS
    
+   if int == 0
+      return false  
+   elsif int == 1
+      return false
+   end   
+   
+   
+   
+   
    if int > -1
      while i <= int
+       
+     
        if int % i == 0
           if i == 1 && int > 1
             i+=1
@@ -33,10 +44,7 @@ def prime?(int)
      end
    end
    
-   
-   if int == 0
-      return false  
-   end   
+  
    
    
    true
