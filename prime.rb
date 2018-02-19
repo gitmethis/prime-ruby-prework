@@ -7,7 +7,7 @@ def prime?(int)
    e = -1 # FOR NEGATIVE NUMBERS
    
    if int > -1
-     while i < int
+     while i <= int
        if int % i == 0
           return false 
        end
