@@ -17,7 +17,7 @@ def prime?(int)
    
    if int < 0
      while e > int
-       if int % i == 0
+       if int % e == 0
           return false 
        end
        e-=1
