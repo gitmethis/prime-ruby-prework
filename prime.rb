@@ -25,6 +25,9 @@ def prime?(int)
    end
    
    
+   if int == 0
+      return false  
+   end   
    
    
    true
